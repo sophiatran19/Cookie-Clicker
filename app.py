@@ -46,6 +46,6 @@ def backsetting():
     response.set_cookie('fontcol', form['fontcol'])
     return response 
 
-
+print("hello world")
 
 app.run(host = '0.0.0.0', port = 5555)
